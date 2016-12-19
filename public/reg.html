@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+    </head>
+<script lang="javascript">
+    function validate(){
+	
+                var reg=/^[a-zA-Z\-]+$/
+                var sname=document.f1.uname.value
+              
+                var res=sname.search(reg)
+              
+                if(res==-1)
+                {
+                    alert("Please Enter Correct Name");
+                    return false;
+                }
+                
+                if(isNaN(document.f1.pass.value))
+                    {
+                        alert("please enter valid number");
+                        return false;
+                    }
+                
+                
+               return true; 
+        if((document.f.p1.value)!=(document.f1.p2.value)){
+            alert("Password does not match");
+            return false;
+        }
+        return true;
+    }
+</script>
+<center>
+    <body>
+        <form name="f1" method="post" action="" onsubmit="javascript:return validate();">
+            First Name:<input type="text" name="fn" required/><br/>
+            Middle Name: Name:<input type="text" name="mn" required/><br/>
+            Last Name:<input type="text" name="ln" required/><br/>
+            Email:<input type="text" name="email" required/><br/>
+            Contact:<input type="text" name="cnt" required/><br/>
+            User Name:<input type="text" name="uname" required/><br/>
+            Password:<input type="password" name="p1" required/><br/>
+            Re enter Password:<input type="password" name="p2" required/><br/>
+            <input type="submit" name="save" value="Save"/>
+        </form>
+		</center>
+        </body>
+		</html>

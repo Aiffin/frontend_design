@@ -1,0 +1,11 @@
+.demo-layout-transparent {
+  background:url('login.jpg');
+}
+
+
+
+body {
+  padding: 20px;
+  background: #fafafa;
+  position: relative;
+}

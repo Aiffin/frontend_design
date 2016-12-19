@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+	<link rel="stylesheet" href="mdcss.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">FRIENDS BOOK</span>
+		  <button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+<i class="material-icons">person_pin</i>
+  
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
+  <li class="mdl-menu__item">aiffin</li>
+   <li class="mdl-menu__item">aiffinsk@gmail</li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">profile</li>
+</ul>
+		  
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="https://www.google.co.in/search?q=images+of+friendship&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjYv7CF9p3QAhVMro8KHa7pBJ4QsAQIGw&biw=1525&bih=731&dpr=0.9">HOME</a>
+            <a class="mdl-navigation__link" href="frds.html">FRIENDS</a
+			  <body>
+    <!-- Number badge -->
+    <span class="mdl-badge" data-badge="4">Inbox</span>
+    
+  </body>
+            <a class="mdl-navigation__link" href="">SETTING</a>
+            <a class="mdl-navigation__link" href="">CONTACT US</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">FRIENDS BOOK</span>
+        <nav class="mdl-navigation">
+		  <a class="mdl-navigation__link" href="https://www.google.co.in/search?q=images+of+friendship&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjYv7CF9p3QAhVMro8KHa7pBJ4QsAQIGw&biw=1525&bih=731&dpr=0.9">
+      <i class="material-icons">home</i>&nbspHome</a>
+          <a class="mdl-navigation__link" href="frds.html"><i class="material-icons">message</i>&nbspMessage</a>
+          <a class="mdl-navigation__link" href=""><i class="material-icons">update</i>&nbspNotification</a>
+          <a class="mdl-navigation__link" href=""><i class="material-icons">settings</i>&nbspSetting</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+      </main>
+    </div>
+  </body>
+</html>

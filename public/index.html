@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+	<script lang="text/javascript">
+            function validate(){
+             
+                var reg=/^[a-zA-Z\-]+$/;
+                var sname=document.f1.uname.value;
+              
+                var res=sname.search(reg);
+              
+                if(res==-1)
+                {
+                    alert("Please Enter Correct Name");
+                    return false;
+                }
+                
+                if(isNaN(document.f1.pass.value))
+                    {
+                        alert("please enter valid number");
+                        return false;
+                    }
+                
+                
+               return true; 
+            }
+            </script></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+	<link rel="stylesheet" href="csslo.css">
+	<link rel="stylesheet" href="carddesign.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+   
+
+
+<style>
+#mydiv
+{
+    position:relative;
+    top: 100px;
+	right:200px;
+}
+</style>
+	
+  </head>
+  <body>
+  
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+         <span class="mdl-layout-title">FRIENDS BOOK</span>
+		 
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          
+        </div>
+      </header>
+      
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here --></div>
+      </main>
+    </div>
+	<br><br><br>
+    <!-- Simple Textfield -->
+	<center>
+	<H1>LOGIN</H1>
+	<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+	
+    <form name="f1" method="post">
+       
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="/^[a-zA-Z\-]+$/" id="sample1" name="uname" required/>
+        <label class="mdl-textfield__label" for="sample1">USERNAME</label>
+		<span class="mdl-textfield__error">Input is not a variable!</span>
+      </div><br><br>
+    
+    <!-- Numeric Textfield -->
+	
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" name="pass" required/>
+        <label class="mdl-textfield__label" for="sample2">PASSWORD</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+      </div><br>
+	 </form>
+	 
+	 <div class="container">
+  <div class="row">
+ 
+    <div  id="mydiv" class="col-sm-4">
+    
+	  <button onClick="location.href='materialdesign.html'" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" >
+  login
+	</button>
+	</div>
+
+	<div class="col-sm-4" style="position:relative;top: 100px; right:150px;">
+	
+<button onClick="location.href='reg.html'" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored ">
+  Register
+	</button>
+	</div>
+	</div>
+	</div>
+	</div>
+</center>
+		</div>
+      </div>
+   
+   
+  </body>
+</html>
